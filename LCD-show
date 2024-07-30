@@ -1,0 +1,8 @@
+enable spi
+reboot 
+Sudo apt-get update
+Sudo apt-get upgrade
+git clone https://github.com/goodtft/LCD-show.git
+cd LCD-show
+Sudo ./LCD35-show
+Sudo chmod +×~/LCD-show/LCD35-show
